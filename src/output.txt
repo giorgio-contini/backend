@@ -1,0 +1,89 @@
+Elenco del percorso delle cartelle per il volume OSDisk
+Numero di serie del volume: E063-5946
+C:.
+³   output.txt
+³   
+ÃÄÄÄmain
+³   ³   main.iml
+³   ³   
+³   ÃÄÄÄjava
+³   ³   ÀÄÄÄcom
+³   ³       ÀÄÄÄtyb
+³   ³           ÀÄÄÄtyb_backend
+³   ³               ³   ServletInitializer.java
+³   ³               ³   TybBackendApplication.java
+³   ³               ³   WebConfig.java
+³   ³               ³   
+³   ³               ÃÄÄÄconfig
+³   ³               ³       OpenApiConfig.java
+³   ³               ³       
+³   ³               ÃÄÄÄcontroller
+³   ³               ³       LoginController.java
+³   ³               ³       QuizController.java
+³   ³               ³       UserController.java
+³   ³               ³       
+³   ³               ÃÄÄÄdto
+³   ³               ³   ³   AddAdminDto.java
+³   ³               ³   ³   AdminDto.java
+³   ³               ³   ³   AnswerRequest.java
+³   ³               ³   ³   ChangePasswordDto.java
+³   ³               ³   ³   CriteriRicercaUser.java
+³   ³               ³   ³   DeleteUserDto.java
+³   ³               ³   ³   DocumentRequest.java
+³   ³               ³   ³   LoginRequest.java
+³   ³               ³   ³   LoginResponse.java
+³   ³               ³   ³   QuizDataResponse.java
+³   ³               ³   ³   QuizDto.java
+³   ³               ³   ³   ResultAdminsResponse.java
+³   ³               ³   ³   ResultQuizResponse.java
+³   ³               ³   ³   ResultUserResponse.java
+³   ³               ³   ³   
+³   ³               ³   ÀÄÄÄEsito
+³   ³               ³           EnumCodiceEsito.java
+³   ³               ³           Esito.java
+³   ³               ³           EsitoResponse.java
+³   ³               ³           
+³   ³               ÃÄÄÄexception
+³   ³               ³       TrainYourBrainException.java
+³   ³               ³       TrainYourBrainExceptionController.java
+³   ³               ³       
+³   ³               ÃÄÄÄjwt
+³   ³               ³       CustomUserDetailsService.java
+³   ³               ³       JwtAuthenticationFilter.java
+³   ³               ³       JwtTokenProvider.java
+³   ³               ³       
+³   ³               ÃÄÄÄmodel
+³   ³               ³       Answer.java
+³   ³               ³       Question.java
+³   ³               ³       Quiz.java
+³   ³               ³       QuizResult.java
+³   ³               ³       User.java
+³   ³               ³       
+³   ³               ÃÄÄÄrepository
+³   ³               ³       QuizRepository.java
+³   ³               ³       QuizResultsRepository.java
+³   ³               ³       UserRepository.java
+³   ³               ³       
+³   ³               ÃÄÄÄsecurity
+³   ³               ³       CustomAuthenticationFilter.java
+³   ³               ³       CustomAuthenticationProvider.java
+³   ³               ³       SecurityConfig.java
+³   ³               ³       
+³   ³               ÀÄÄÄservice
+³   ³                       QuizService.java
+³   ³                       QuizServiceImpl.java
+³   ³                       UserService.java
+³   ³                       UserServiceImpl.java
+³   ³                       
+³   ÀÄÄÄresources
+³           application.properties
+³           
+ÀÄÄÄtest
+    ³   test.iml
+    ³   
+    ÀÄÄÄjava
+        ÀÄÄÄcom
+            ÀÄÄÄtyb
+                ÀÄÄÄtyb_backend
+                        TybBackendApplicationTests.java
+                        
