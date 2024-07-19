@@ -45,13 +45,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: java-app
-      
+
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_63B1F10DA98749AE958DE62B246E3AC9 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_99413A3977BF4EE2928E5530E1B3B2E9 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_11C6681D9D224B85BC8E9E77BC63C6AE }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_B7CBD88B4DDF400EB302536687CB8686 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_08FCDD7E654A47C19871D4148C7B2C2C }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F1782CACA7894DEEA965D9F15E8B721F }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -60,4 +60,3 @@ jobs:
           app-name: 'backend-tyb'
           slot-name: 'Production'
           package: '*.jar'
-          
