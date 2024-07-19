@@ -60,3 +60,4 @@ jobs:
           app-name: 'backend-tyb'
           slot-name: 'Production'
           package: '*.jar'
+
